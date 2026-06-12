@@ -6,7 +6,7 @@ A Simple Logistic Regression prediction system that predicts if a Marvel Movie w
 
 The dataset is generated using LLM and located in dataset/marvel_movie_data.csv
 
-The dataset lists all the Marvel movie from 2007 to 2024, which includes
+The dataset lists all the Marvel movie from 2000 to 2024, which includes
 - Original Marvel Studios Productions
 - Sony & Fox universe collaboration movies like Spiderman, X-men, Wolverine, etc.
 
