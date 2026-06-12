@@ -18,9 +18,10 @@ Each entry has a worldwide_collection column which is used to determine if the m
 
 ## Implementation Details ##
 
-A Movie is considered a Smash hit only if it earns more than 800 Million dollars in its lifetime
+A Marvel movie is considered a Smash hit only if it earns more than 800 Million dollars
+- NOTE: this is a made-up metric only only for the purposes of this model
 
-Used Scikit-learn for data preprocessing, model training, predicting data & prediction metrics
+Scikit-learn was used for data preprocessing, model training, predicting data & prediction metrics
 
 <br/>
 
