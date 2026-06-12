@@ -2,7 +2,7 @@ A Simple Logistic Regression prediction system that predicts if a Marvel Movie w
 
 <br/>
 
-**-> Dataset**
+## The Dataset ##
 
 The dataset is generated using LLM and located in dataset/marvel_movie_data.csv
 
@@ -16,7 +16,7 @@ Each entry has a worldwide_collection column which is used to determine if the m
 
 <br/>
 
-**-> Implementation Details**
+## Implementation Details ##
 
 A Movie is considered a Smash hit only if it earns more than 800 Million dollars in its lifetime
 
@@ -24,8 +24,31 @@ Used Scikit-learn for data preprocessing, model training, predicting data & pred
 
 <br/>
 
-**-> Overfitting Issue**
 
-The model currently suffers Overfitting due to 
+## Steps to install and run ##
+
+### 1) Install dependencies ###
+
+```bash
+pip install -r requirements.txt
+```
+
+
+### 2) Execute `main.py` ###
+
+```bash
+python main.py
+```
+
+### 3) Output should look something like this ###
+
+<img src="image.png" height="350px" width="800px">
+
+<br/>
+
+
+## The Overfitting Issue ##
+
+The model currently suffers from Overfitting due to 
 - less data (only about 54 rows)
 - inclusion of lots of highly precise features like genres, directors and cast members
